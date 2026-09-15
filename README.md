@@ -24,3 +24,14 @@ The interactive dashboard provides a summary of reporting coverage, AWaRe antibi
 Users can filter the dashboard by country and year to explore changes in antibiotic consumption and AWaRe composition.
 
 ![WHO GLASS Antibiotic Consumption Dashboard](dashboard-overview.png)
+
+## Analytical Questions
+
+The analysis was designed to answer the following questions:
+
+- How has antibiotic consumption changed across reporting countries between 2016 and 2023?
+- How does antibiotic consumption vary across countries and WHO regions?
+- What proportion of reported antibiotic consumption falls within the Access, Watch and Reserve (AWaRe) categories?
+- Which countries meet the WHO benchmark of at least 60% of total antibiotic consumption coming from the Access category?
+- How has the number of countries reporting antimicrobial consumption data changed over time?
+- To what extent do changes in reporting coverage affect observed trends in antibiotic consumption?
