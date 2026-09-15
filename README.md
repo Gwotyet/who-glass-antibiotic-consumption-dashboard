@@ -38,9 +38,11 @@ The analysis was designed to answer the following questions:
 
 ## Data Source & Structure
 
-The analysis uses antimicrobial consumption data from the World Health Organization (WHO) Global Antimicrobial Resistance and Use Surveillance System (GLASS) antimicrobial use dataset.
+**Primary data source:** [WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) – Data Visualization Dashboard](https://worldhealthorg.shinyapps.io/glass-dashboard/)
 
-The dataset covers **2016–2023** and contains data for **73 reporting countries and territories** across the six WHO regions. Reporting coverage varies by year, increasing from 36 countries in 2016 to 65 in 2023.
+The analysis uses national antimicrobial use data from the World Health Organization (WHO) Global Antimicrobial Resistance and Use Surveillance System (GLASS-AMU).
+
+The dataset analysed in this project covers **2016–2023** and contains data for **73 reporting countries and territories** across the six WHO regions. Reporting coverage differs by year, increasing from 36 countries in 2016 to 65 in 2023.
 
 ### Key Variables
 
