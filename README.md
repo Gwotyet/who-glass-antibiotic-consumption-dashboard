@@ -68,4 +68,4 @@ Not all countries reported data in every year. The number of reporting countries
 | 2022 | 64 |
 | 2023 | 65 |
 
-These changes in reporting coverage were considered when interpreting temporal trends and led to additional sensitivity analysis using countries with consistent reporting across the study period.
+These differences in reporting coverage were considered when interpreting temporal trends and led to additional sensitivity analysis using countries with consistent reporting across the study period.
