@@ -8,7 +8,7 @@ The dashboard examines antibiotic consumption using Defined Daily Doses (DDD) an
 
 Antimicrobial resistance (AMR) is a major public health challenge worldwide, and monitoring antimicrobial consumption is an important part of antimicrobial stewardship.
 
-The project was developed to explore:
+The project aimed to explore:
 
 - antibiotic consumption patterns over time;
 - differences between countries and WHO regions;
