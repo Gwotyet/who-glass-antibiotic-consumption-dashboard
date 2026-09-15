@@ -35,3 +35,37 @@ The analysis was designed to answer the following questions:
 - Which countries meet the WHO benchmark of at least 60% of total antibiotic consumption coming from the Access category?
 - How has the number of countries reporting antimicrobial consumption data changed over time?
 - To what extent do changes in reporting coverage affect observed trends in antibiotic consumption?
+
+## Data Source & Structure
+
+The analysis uses antimicrobial consumption data from the World Health Organization (WHO) Global Antimicrobial Resistance and Use Surveillance System (GLASS) antimicrobial use dataset.
+
+The dataset covers **2016–2023** and contains data for **73 reporting countries and territories** across the six WHO regions. Reporting coverage varies by year, increasing from 36 countries in 2016 to 65 in 2023.
+
+### Key Variables
+
+The analysis focuses on:
+
+- **Country/Territory** – reporting country or territory.
+- **Year** – reporting year from 2016 to 2023.
+- **WHO Region** – geographical region assigned by WHO.
+- **DDD (Defined Daily Dose)** – a standardised unit used to measure antibiotic consumption.
+- **DID** – Defined Daily Doses per 1,000 inhabitants per day, allowing consumption to be compared between populations.
+- **AWaRe Category** – WHO classification of antibiotics into Access, Watch and Reserve groups, with additional records not classified/recommended under AWaRe.
+
+### Reporting Coverage
+
+Not all countries reported data in every year. The number of reporting countries increased over the study period:
+
+| Year | Reporting Countries |
+|------|---------------------|
+| 2016 | 36 |
+| 2017 | 42 |
+| 2018 | 44 |
+| 2019 | 50 |
+| 2020 | 53 |
+| 2021 | 60 |
+| 2022 | 64 |
+| 2023 | 65 |
+
+These changes in reporting coverage were considered when interpreting temporal trends and led to additional sensitivity analysis using countries with consistent reporting across the study period.
