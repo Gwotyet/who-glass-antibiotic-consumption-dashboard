@@ -1,27 +1,19 @@
-# who-glass-antibiotic-consumption-dashboard
-Power BI analysis of WHO GLASS antimicrobial consumption data (2016–2023), assessing antibiotic consumption, AWaRe distribution, regional patterns and the WHO 60% Access benchmark.
 # WHO GLASS Antibiotic Consumption Dashboard
 
 ## Project Overview
 
-## Business / Surveillance Question
+This project presents an interactive Power BI dashboard analysing antimicrobial consumption data reported through the World Health Organization (WHO) Global Antimicrobial Resistance and Use Surveillance System (GLASS) from 2016–2023.
 
-## Dashboard
+The dashboard examines antibiotic consumption using Defined Daily Doses (DDD) and DID (DDD per 1,000 inhabitants per day), explores antibiotic distribution across the WHO AWaRe categories, compares consumption patterns across countries and WHO regions, and assesses country performance against the WHO 60% Access benchmark.
 
-## Dataset
+Antimicrobial resistance (AMR) is a major public health challenge worldwide, and monitoring antimicrobial consumption is an important part of antimicrobial stewardship.
 
-## Data Preparation
+The project was developed to explore:
 
-## Data Model
+- antibiotic consumption patterns over time;
+- differences between countries and WHO regions;
+- Access, Watch and Reserve antibiotic consumption;
+- country performance against the WHO 60% Access benchmark; and
+- changes in the number of countries contributing data over time.
 
-## DAX Measures
-
-## Analytical Validation
-
-## Key Findings
-
-## Limitations
-
-## Tools & Skills Demonstrated
-
-## Author
+The analysis also includes validation checks to account for differences in reporting coverage and to ensure that DID is aggregated at the appropriate country-year level.
