@@ -72,3 +72,22 @@ Not all countries reported data in every year. The number of reporting countries
 | 2023 | 65 |
 
 The difference in reporting coverage was considered when interpreting temporal trends, and additional sensitivity analyses were conducted using countries with complete reporting across the study period.
+
+## Data Preparation & Modelling
+
+The source data was prepared in Power Query before analysis. The main preparation steps included promoting column headers, assigning appropriate data types, renaming fields for clarity, and removing variables that were not required for the analysis.
+
+The prepared data was then organised into a star-schema model in Power BI. This separated the antimicrobial consumption records from the main descriptive dimensions and provided a structured model for filtering and DAX calculations.
+
+The model consists of:
+
+- **Fact_AWaRe** – the central fact table containing antibiotic consumption records, including DDD and DID.
+- **Dim_Country** – country-level information including country/territory, ISO3 code and WHO region.
+- **Dim_Year** – unique reporting years used for temporal analysis.
+- **Dim_AWaRe** – AWaRe classifications used to analyse Access, Watch, Reserve, and other/not-classified categories.
+
+One-to-many relationships connect each dimension table to `Fact_AWaRe`, with filtering flowing from the dimension tables to the central fact table.
+
+### Data Model
+
+![Power BI star schema](data-model.png)
