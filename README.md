@@ -90,4 +90,4 @@ One-to-many relationships connect each dimension table to `Fact_AWaRe`, with fil
 
 ### Data Model
 
-![Power BI star schema](data-model.png)
+![Power BI star schema](data-model.png.png)
