@@ -4,7 +4,8 @@
 
 This project presents an interactive Power BI dashboard analysing antimicrobial consumption data reported through the World Health Organization (WHO) Global Antimicrobial Resistance and Use Surveillance System (GLASS) from 2016–2023.
 
-The dashboard examines antibiotic consumption using Defined Daily Doses (DDD) and DID (DDD per 1,000 inhabitants per day), explores antibiotic distribution across the WHO AWaRe categories, compares consumption patterns across countries and WHO regions, and assesses country performance against the current ≥70% Access target. > **Target note:** The ≥70% Access target is the current 2030 global target. In this project, it is applied as a benchmark to the historical 2016–2023 GLASS-AMU observations; it should not be interpreted as having been the target throughout the entire study period.
+The dashboard examines antibiotic consumption using Defined Daily Doses (DDD) and DID (DDD per 1,000 inhabitants per day), explores antibiotic distribution across the WHO AWaRe categories, compares consumption patterns across countries and WHO regions, and assesses country performance against the current ≥70% Access target. 
+> **Target note:** The current ≥70% Access target for 2030 is used as a benchmark to compare country-level Access antibiotic consumption reported between 2016 and 2023.
 
 Antimicrobial resistance (AMR) is a major public health challenge globally, and monitoring antimicrobial consumption is an important part of antimicrobial stewardship.
 
@@ -19,7 +20,7 @@ The project aimed to explore:
 The analysis also includes validation checks to account for differences in reporting coverage and to ensure that DID is aggregated at the appropriate country-year level.
 
 ## Dashboard Preview
-The interactive dashboard provides a summary of reporting coverage, AWaRe antibiotic distribution, country and regional consumption patterns, temporal trends in DID, and performance against the current ≥70% Access target.
+The interactive dashboard summarizes reporting coverage, AWaRe antibiotic distribution, country and regional consumption patterns, temporal trends in DID, and performance against the current ≥70% Access target.
 
 Users can filter the dashboard by country and year to explore changes in antibiotic consumption and AWaRe composition.
 
@@ -70,4 +71,4 @@ Not all countries reported data in every year. The number of reporting countries
 | 2022 | 64 |
 | 2023 | 65 |
 
-These differences in reporting coverage were considered when interpreting temporal trends and led to additional sensitivity analysis using countries with consistent reporting across the study period.
+These differences in reporting coverage were considered when interpreting temporal trends, and additional sensitivity analyses were conducted using countries with complete reporting across the study period.
