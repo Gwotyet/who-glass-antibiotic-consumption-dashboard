@@ -39,7 +39,7 @@ The analysis was designed to answer the following questions:
 
 ## Data Source & Structure
 
-**Primary data source:** [WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) – Data Visualization Dashboard](https://worldhealthorg.shinyapps.io/glass-dashboard/)
+**Primary data source:** [WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) – Data Visualization Dashboard] (https://worldhealthorg.shinyapps.io/glass-dashboard/)
 
 The analysis uses antimicrobial use data reported through the World Health Organization (WHO) Global Antimicrobial Resistance and Use Surveillance System (GLASS-AMU).
 
