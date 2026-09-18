@@ -41,9 +41,9 @@ The analysis was designed to answer the following questions:
 
 **Primary data source:** [WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) – Data Visualization Dashboard](https://worldhealthorg.shinyapps.io/glass-dashboard/)
 
-The analysis uses national antimicrobial use data from the World Health Organization (WHO) Global Antimicrobial Resistance and Use Surveillance System (GLASS-AMU).
+The analysis uses antimicrobial use data reported through the World Health Organization (WHO) Global Antimicrobial Resistance and Use Surveillance System (GLASS-AMU).
 
-The dataset analysed in this project covers **2016–2023** and contains data for **73 reporting countries and territories** across the six WHO regions. Reporting coverage differs by year, increasing from 36 countries in 2016 to 65 in 2023.
+The dataset analysed in this project covers **2016–2023** and contains data for **73 reporting countries and territories** across the six WHO regions. Reporting coverage varies by year, increasing from 36 countries in 2016 to 65 in 2023.
 
 ### Key Variables
 
@@ -54,7 +54,7 @@ The analysis focuses on:
 - **WHO Region** – geographical region assigned by WHO.
 - **DDD (Defined Daily Dose)** – a standardised unit used to measure antibiotic consumption.
 - **DID** – Defined Daily Doses per 1,000 inhabitants per day, allowing consumption to be compared between populations.
-- **AWaRe Category** – WHO classification of antibiotics into Access, Watch and Reserve groups, with additional records not classified/recommended under AWaRe.
+- **AWaRe Category** – WHO classification of antibiotics into Access, Watch and Reserve groups, with additional records not classified under the main AWaRe groups.
 
 ### Reporting Coverage
 
@@ -71,4 +71,4 @@ Not all countries reported data in every year. The number of reporting countries
 | 2022 | 64 |
 | 2023 | 65 |
 
-These differences in reporting coverage were considered when interpreting temporal trends, and additional sensitivity analyses were conducted using countries with complete reporting across the study period.
+The difference in reporting coverage was considered when interpreting temporal trends, and additional sensitivity analyses were conducted using countries with complete reporting across the study period.
