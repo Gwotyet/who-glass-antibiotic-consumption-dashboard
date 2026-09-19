@@ -281,3 +281,21 @@ Blank observations were explicitly excluded from the classification to prevent c
 As a final reconciliation check, the number of countries meeting and below the benchmark was compared with the number of reporting countries for each year. For example, in 2023:
 
 **22 meeting target + 43 below target = 65 reporting countries.**
+
+## Limitations
+
+Several limitations should be considered when interpreting the results:
+
+- **Changing reporting coverage:** The number and composition of reporting countries varied between years. Annual estimates therefore represent countries reporting in each year rather than a fixed panel of countries.
+
+- **Differences in national data coverage:** GLASS-AMU submissions may differ in population coverage, healthcare sectors, data sources, and completeness between countries. Direct country and regional comparisons should therefore be interpreted with caution.
+
+- **Consumption does not measure appropriateness:** Higher DID indicates greater reported antibiotic consumption but does not, by itself, demonstrate inappropriate prescribing or use. Differences may reflect disease burden, healthcare access, prescribing practices, and characteristics of national surveillance systems.
+
+- **Aggregated data:** The analysis uses country-level surveillance data and cannot assess individual prescribing decisions, patient-level antibiotic exposure, or clinical appropriateness.
+
+- **AWaRe classification:** A small proportion of reported consumption falls outside the main Access, Watch and Reserve categories, meaning these three groups do not always account for exactly 100% of consumption.
+
+- **70% Access target:** The current ≥70% Access target for 2030 is applied as a benchmark to the 2016–2023 observations. It was not the applicable target throughout the full period covered by the dataset.
+
+These limitations were considered when interpreting the dashboard, particularly the temporal, country, and regional comparisons.
