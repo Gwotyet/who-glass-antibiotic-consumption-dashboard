@@ -33,7 +33,7 @@ The analysis was designed to answer the following questions:
 - How has antibiotic consumption changed across reporting countries between 2016 and 2023?
 - How does antibiotic consumption vary across countries and WHO regions?
 - What proportion of reported antibiotic consumption falls within the Access, Watch and Reserve (AWaRe) categories?
-- Which countries meet the WHO benchmark of at least 70% of total antibiotic consumption coming from the Access category?
+- Which countries meet the current target of at least 70% of total antibiotic consumption coming from the Access category?
 - How has the number of countries reporting antimicrobial consumption data changed over time?
 - To what extent do changes in reporting coverage affect observed trends in antibiotic consumption?
 
@@ -180,7 +180,7 @@ This validation step prevented component-level records from being incorrectly in
 
 ### 1. Access antibiotics accounted for just over half of reported consumption
 
-Across the pooled 2016–2023 dataset, **54.8%** of reported antibiotic consumption was classified as Access, compared with **42.6% Watch** and **0.2% Reserve**. The remaining consumption falls under the unclassified category.
+Across the pooled 2016–2023 dataset, **54.8%** of reported antibiotic consumption was classified as Access, compared with **42.6% Watch** and **0.2% Reserve**. The remaining consumption falls outside the three main AWaRe categories.
 
 This pooled distribution is DDD-weighted across the available observations and should not be interpreted as the average percentage for an individual country.
 
@@ -337,3 +337,5 @@ A second challenge was the changing composition of reporting countries over time
 Veterinary Epidemiologist | Surveillance Data Analyst | One Health & AMR
 
 Background in veterinary medicine, infectious disease epidemiology, antimicrobial resistance, and health data analysis.
+
+[LinkedIn](https://www.linkedin.com/in/dashegwotyet) | [GitHub](https://github.com/Gwotyet)
