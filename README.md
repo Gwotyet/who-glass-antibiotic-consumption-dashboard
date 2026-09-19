@@ -268,6 +268,8 @@ Annual average DID among these consistent reporters was compared with the corres
 
 The consistent-reporter series was more stable during the earlier years, suggesting that changes in reporting composition contributed to some of the variation in the all-reporter trend. However, both series showed a decline around 2020 followed by an increase towards 2023.
 
+![Sensitivity analysis comparing all and consistent reporters](consistent-reporters-sensitivity.png)
+
 This analysis provided an additional check on whether the main temporal pattern was driven primarily by changes in country participation.
 
 ### 70% Access Target Validation
