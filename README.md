@@ -217,7 +217,7 @@ These comparisons describe consumption among countries represented in the datase
 
 Across the available reporting periods, several countries had substantially higher mean annual DID than the overall distribution. The highest values in the analysis included **Iran (61.3)**, **Nepal (48.6)** and the **United Republic of Tanzania (48.1)**.
 
-These results describe reported consumption and do not by themselves indicate inappropriate antibiotic use, as differences may reflect population health needs, healthcare systems, data coverage and reporting practices.
+These results describe reported consumption and do not by themselves indicate inappropriate antibiotic use, as differences may reflect population health needs, healthcare systems, data coverage, and reporting practices.
 
 ### 6. A minority of reporting countries met the current 70% Access benchmark
 
@@ -226,3 +226,56 @@ Using the current ≥70% Access target as a benchmark, **22 of 65 reporting coun
 Across the full dataset, **26 of 73 countries and territories (35.6%)** met the benchmark when their available 2016–2023 observations were pooled.
 
 The proportion meeting the benchmark varied over time, from **30.6% in 2016** to **33.8% in 2023**, rather than showing a consistent year-on-year increase.
+
+## Data Quality, Validation & Sensitivity Analysis
+
+Several validation checks were performed to ensure that the dashboard calculations reflected the structure of the underlying GLASS-AMU data.
+
+### DID Aggregation
+
+The source data contains multiple consumption records within individual country-year observations. An initial row-level average of DID therefore produced misleading country-level estimates.
+
+Country-year validation was used to identify this issue, and the analytical approach was revised to aggregate DID within the appropriate country-year context before calculating annual, country, and regional summaries.
+
+### AWaRe Validation
+
+AWaRe percentages were checked to ensure that Access, Watch, Reserve, and other/not-classified categories reconciled with total reported consumption.
+
+For example, validation of the United Kingdom's 2023 observations produced approximately:
+
+- **Access:** 72.4%
+- **Watch:** 27.1%
+- **Reserve:** 0.4%
+
+The categories reconciled to approximately 100% after accounting for rounding and other/not-classified consumption.
+
+### Reporting Coverage
+
+Reporting coverage was not constant across the study period. The number of reporting countries and territories increased from **36 in 2016** to **65 in 2023**.
+
+This means that changes in the overall annual DID series can reflect both:
+
+1. changes in antibiotic consumption; and
+2. changes in the countries contributing data in a given year.
+
+The annual trend was therefore interpreted as an average among countries reporting in each year rather than as a fixed-panel global trend.
+
+### Consistent-Reporter Sensitivity Analysis
+
+A sensitivity analysis identified **33 countries** with observations in all eight years from 2016 to 2023.
+
+Annual average DID among these consistent reporters was compared with the corresponding series using all available reporting countries.
+
+The consistent-reporter series was more stable during the earlier years, suggesting that changes in reporting composition contributed to some of the variation in the all-reporter trend. However, both series showed a decline around 2020 followed by an increase towards 2023.
+
+This analysis provided an additional check on whether the main temporal pattern was driven primarily by changes in country participation.
+
+### 70% Access Target Validation
+
+Countries were classified as meeting the current Access benchmark only where an Access percentage was available.
+
+Blank observations were explicitly excluded from the classification to prevent countries without applicable data from being incorrectly counted as below target.
+
+As a final reconciliation check, the number of countries meeting and below the benchmark was compared with the number of reporting countries for each year. For example, in 2023:
+
+**22 meeting target + 43 below target = 65 reporting countries.**
