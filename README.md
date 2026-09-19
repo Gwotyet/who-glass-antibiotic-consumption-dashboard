@@ -91,3 +91,68 @@ One-to-many relationships connect each dimension table to `Fact_AWaRe`, with fil
 ### Data Model
 
 ![Power BI star schema](data-model.png.png)
+
+## DAX Measures & Analytical Logic
+
+DAX measures were developed to calculate antibiotic consumption, AWaRe distribution, reporting coverage, and country performance against the 70% Access target.
+
+### Total Antibiotic Consumption
+
+Total Defined Daily Doses (DDD) were calculated from the fact table:
+
+```DAX
+Total DDD =
+SUM(Fact_AWaRe[DDD])
+
+DID was also aggregated across the relevant consumption records:
+Total DID =
+SUM(Fact_AWaRe[DID])
+
+AWaRe Distribution
+
+Access consumption was calculated by filtering total DDD to antibiotics classified in the Access category:
+Access DDD =
+CALCULATE(
+    [Total DDD],
+    Dim_AWaRe[AWaRe] = "A"
+)
+
+The proportion of total consumption represented by Access antibiotics was then calculated as:
+Access % =
+DIVIDE([Access DDD], [Total DDD])
+Equivalent measures were created for Watch, Reserve, and other/not-classified antibiotics.
+
+Mean Annual DID
+
+Because countries reported data for different numbers of years, mean annual DID was calculated across the available reporting years for each country:
+Mean Annual DID =
+AVERAGEX(
+    VALUES(Dim_Year[Year]),
+    CALCULATE([Total DID])
+)
+This measure is used for country comparisons across the full study period rather than simply summing DID across multiple years.
+
+70% Access Target
+
+Country performance against the current 70% Access target was classified using the calculated Access proportion:
+WHO Target Status =
+IF(
+    ISBLANK([Access %]),
+    BLANK(),
+    IF(
+        [Access %] >= 0.70,
+        "✓ Meets Target",
+        "✕ Below Target"
+    )
+)
+Blank values were excluded from target classification to avoid treating countries without applicable observations as being below the target.
+
+### DID Aggregation Validation
+
+During validation, an initial row-level average of DID was found to be inappropriate because individual country-year observations were represented by multiple consumption records.
+
+For example, validation of the United Kingdom's 2023 data showed that averaging the component-level DID records produced approximately **1.07 DID**, whereas aggregating the records at the country-year level produced approximately **17.08 DID**.
+
+The calculation approach was therefore revised so that DID is first aggregated within the relevant country-year context before annual or cross-country averages are calculated.
+
+This validation step prevented component-level records from being incorrectly interpreted as independent country-level consumption estimates.
