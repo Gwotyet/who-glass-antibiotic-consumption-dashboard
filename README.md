@@ -330,6 +330,10 @@ The analysis was therefore redesigned to aggregate DID within the appropriate co
 
 A second challenge was the changing composition of reporting countries over time. This was addressed through a sensitivity analysis comparing annual DID among all available reporters with a fixed group of countries reporting consistently across 2016–2023.
 
+### Power BI File
+
+The Power BI (.pbix) project file is available on request for portfolio review.
+
 ## Author
 
 **Dashe Gwotyet**
