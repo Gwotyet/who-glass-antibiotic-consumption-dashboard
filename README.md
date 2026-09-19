@@ -175,3 +175,54 @@ For example, validation of the United Kingdom's 2023 data showed that averaging 
 The calculation approach was therefore revised so that DID is first aggregated within the relevant country-year context before annual or cross-country averages are calculated.
 
 This validation step prevented component-level records from being incorrectly interpreted as independent country-level consumption estimates.
+
+## Key Findings
+
+### 1. Access antibiotics accounted for just over half of reported consumption
+
+Across the pooled 2016–2023 dataset, **54.8%** of reported antibiotic consumption was classified as Access, compared with **42.6% Watch** and **0.2% Reserve**. The remaining consumption falls under the unclassified category.
+
+This pooled distribution is DDD-weighted across the available observations and should not be interpreted as the average percentage for an individual country.
+
+### 2. Average country-level DID varied over time
+
+Average country DID increased from **19.2 in 2016** to **22.6 in 2017**, before declining to **18.4 in 2020**. It subsequently increased to **20.3 in 2023**.
+
+Because the number and composition of reporting countries changed over time, these annual values should not automatically be interpreted as changes in antibiotic consumption within the same group of countries.
+
+### 3. Reporting coverage increased substantially
+
+The number of countries and territories contributing data increased from **36 in 2016** to **65 in 2023**.
+
+A sensitivity analysis using countries with consistent reporting across all eight years showed a more stable early-period trend than the analysis using all available reporters. However, both series showed a decline around 2020 followed by an increase towards 2023.
+
+This suggests that changes in reporting composition contribute to some of the variation observed in the overall annual trend.
+
+### 4. Substantial regional variation was observed
+
+Mean annual DID varied across WHO regions:
+
+| WHO Region | Mean Annual DID |
+|---|---:|
+| Eastern Mediterranean | 25.5 |
+| South-East Asia | 24.5 |
+| Africa | 19.9 |
+| Europe | 17.9 |
+| Western Pacific | 16.3 |
+| Region of the Americas | 12.9 |
+
+These comparisons describe consumption among countries represented in the dataset and should be interpreted in the context of differences in reporting coverage between regions and years.
+
+### 5. Country-level consumption varied considerably
+
+Across the available reporting periods, several countries had substantially higher mean annual DID than the overall distribution. The highest values in the analysis included **Iran (61.3)**, **Nepal (48.6)** and the **United Republic of Tanzania (48.1)**.
+
+These results describe reported consumption and do not by themselves indicate inappropriate antibiotic use, as differences may reflect population health needs, healthcare systems, data coverage and reporting practices.
+
+### 6. A minority of reporting countries met the current 70% Access benchmark
+
+Using the current ≥70% Access target as a benchmark, **22 of 65 reporting countries (33.8%)** met the threshold in 2023.
+
+Across the full dataset, **26 of 73 countries and territories (35.6%)** met the benchmark when their available 2016–2023 observations were pooled.
+
+The proportion meeting the benchmark varied over time, from **30.6% in 2016** to **33.8% in 2023**, rather than showing a consistent year-on-year increase.
