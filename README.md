@@ -329,3 +329,11 @@ A key challenge in the project was ensuring that calculations respected the grai
 The analysis was therefore redesigned to aggregate DID within the appropriate country-year context before calculating annual, country, and regional summaries.
 
 A second challenge was the changing composition of reporting countries over time. This was addressed through a sensitivity analysis comparing annual DID among all available reporters with a fixed group of countries reporting consistently across 2016–2023.
+
+## Author
+
+**Dashe Gwotyet**
+
+Veterinary Epidemiologist | Surveillance Data Analyst | One Health & AMR
+
+Background in veterinary medicine, infectious disease epidemiology, antimicrobial resistance, and health data analysis.
