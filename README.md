@@ -103,38 +103,55 @@ Total Defined Daily Doses (DDD) were calculated from the fact table:
 ```DAX
 Total DDD =
 SUM(Fact_AWaRe[DDD])
+```
 
 DID was also aggregated across the relevant consumption records:
+
+```DAX
 Total DID =
 SUM(Fact_AWaRe[DID])
+```
 
-AWaRe Distribution
+### AWaRe Distribution
 
 Access consumption was calculated by filtering total DDD to antibiotics classified in the Access category:
+
+```DAX
 Access DDD =
 CALCULATE(
     [Total DDD],
     Dim_AWaRe[AWaRe] = "A"
 )
+```
 
 The proportion of total consumption represented by Access antibiotics was then calculated as:
+
+```DAX
 Access % =
 DIVIDE([Access DDD], [Total DDD])
+```
+
 Equivalent measures were created for Watch, Reserve, and other/not-classified antibiotics.
 
-Mean Annual DID
+### Mean Annual DID
 
 Because countries reported data for different numbers of years, mean annual DID was calculated across the available reporting years for each country:
+
+```DAX
 Mean Annual DID =
 AVERAGEX(
     VALUES(Dim_Year[Year]),
     CALCULATE([Total DID])
 )
+```
+
 This measure is used for country comparisons across the full study period rather than simply summing DID across multiple years.
 
-70% Access Target
+### 70% Access Target
 
 Country performance against the current 70% Access target was classified using the calculated Access proportion:
+
+```DAX
 WHO Target Status =
 IF(
     ISBLANK([Access %]),
@@ -145,6 +162,8 @@ IF(
         "✕ Below Target"
     )
 )
+```
+
 Blank values were excluded from target classification to avoid treating countries without applicable observations as being below the target.
 
 ### DID Aggregation Validation
