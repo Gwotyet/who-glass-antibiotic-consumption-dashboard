@@ -299,3 +299,33 @@ Several limitations should be considered when interpreting the results:
 - **70% Access target:** The current ≥70% Access target for 2030 is applied as a benchmark to the 2016–2023 observations. It was not the applicable target throughout the full period covered by the dataset.
 
 These limitations were considered when interpreting the dashboard, particularly the temporal, country, and regional comparisons.
+
+## Tools & Skills Demonstrated
+
+### Tools
+
+- **Power BI** – dashboard development, interactive filtering and data visualisation
+- **Power Query** – data preparation, column selection, data-type management and field standardisation
+- **DAX** – development of measures for DDD, DID, AWaRe proportions, reporting coverage, annual averages and target classification
+
+### Data & Analytical Skills
+
+- Star-schema data modelling
+- Fact and dimension table design
+- One-to-many relationship management
+- Context-aware DAX calculations
+- Antimicrobial consumption surveillance
+- AWaRe antibiotic classification analysis
+- Country and regional comparative analysis
+- Temporal trend analysis
+- Data-quality validation and reconciliation
+- Sensitivity analysis for changing reporting coverage
+- Interpretation of surveillance data and analytical limitations
+
+### Key Analytical Challenge
+
+A key challenge in the project was ensuring that calculations respected the grain of the underlying surveillance data. Validation showed that directly averaging component-level DID records produced misleading country-level estimates.
+
+The analysis was therefore redesigned to aggregate DID within the appropriate country-year context before calculating annual, country, and regional summaries.
+
+A second challenge was the changing composition of reporting countries over time. This was addressed through a sensitivity analysis comparing annual DID among all available reporters with a fixed group of countries reporting consistently across 2016–2023.
