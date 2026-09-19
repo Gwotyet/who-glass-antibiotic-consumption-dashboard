@@ -54,7 +54,7 @@ The analysis focuses on:
 - **WHO Region** – geographical region assigned by WHO.
 - **DDD (Defined Daily Dose)** – a standardised unit used to measure antibiotic consumption.
 - **DID** – Defined Daily Doses per 1,000 inhabitants per day, allowing consumption to be compared between populations.
-- **AWaRe Category** – WHO classification of antibiotics into Access, Watch and Reserve groups, with additional records not classified under the main AWaRe groups.
+- **AWaRe Category** – WHO classification of antibiotics into Access, Watch and Reserve groups, with additional records under the Other/Not Classified category.
 
 ### Reporting Coverage
 
